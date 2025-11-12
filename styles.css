@@ -7,11 +7,6 @@ f0f2ef - Light Text
 f2f3d9 - Highlight
 */
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -28,8 +23,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  width: 100%;
+ 
 }
 
 .home .overlay {
@@ -39,11 +33,9 @@ body {
 }
 
 .home-content {
-  position: relative;
   z-index: 2;
   display: flex;
   flex-direction: column;
-  align-items: center;
   text-align: center;
 }
 
@@ -53,12 +45,6 @@ body {
   padding: 20px;
   border-radius: 20px;
   display: inline-block;
-}
-
-
-.event-logo {
-  width: 200px;
-  margin-bottom: 20px;
 }
 
 h1 {
