@@ -166,7 +166,7 @@ h2 {
 .back-btn {
   display: inline-block;
   background: #941b0c;
-  color: f0f2ef;
+  color: #f0f2ef;
   padding: 10px 25px;
   border-radius: 25px;
   text-decoration: none;
@@ -196,6 +196,59 @@ h2 {
   margin-bottom: 10px;
   color: #941b0c;
 }
+
+
+/* --- MATCH CARD STYLE --- */
+.match {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background: #141716;
+  border-radius: 15px;
+  padding: 30px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.fighter {
+  text-align: center;
+}
+
+.fighter img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #941b0c;
+  margin-bottom: 15px;
+}
+
+.fighter h3 {
+  font-family: 'Anton', sans-serif;
+  font-size: 1.3rem;
+  color: #941b0c;
+  text-transform: uppercase;
+}
+
+.versus {
+  font-family: 'Anton', sans-serif;
+  font-size: 2.5rem;
+  color: #941b0c;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .match {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .versus {
+    font-size: 2rem;
+  }
+}
+
 
 /* FOOTER */
 footer {
