@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;700&display=swap');
+
+/*Palette Colors
+141716 - Dark Background
+941b0c - Primary Accent
+f0f2ef - Light Text
+f2f3d9 - Highlight
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #141716;
+  color: #f0f2ef;
+  overflow-x: hidden;
+}
+
+/* HOME */
+.home {
+  position: relative;
+  height: 100vh;
+  background: url('./images/logo.jpeg') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.home .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.home-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.home-content h1,
+.home-content .event-date {
+  background: rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+
+.event-logo {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 4rem;
+  color: #941b0c;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.event-date {
+  font-size: 1.5rem;
+  margin: 10px 0 30px;
+}
+
+.cta {
+  background: #941b0c;
+  color: #f0f2ef;
+  padding: 15px 30px;
+  display: inline-block;
+  margin-top: 40px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.cta:hover {
+  background: #941b0c;
+}
+
+/* SECTIONS */
+section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Anton', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #941b0c;
+}
+
+.fighters-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.fighter-card {
+  background: #141716;
+  padding: 20px;
+  border-radius: 15px;
+  width: 250px;
+  transition: transform 0.3s;
+}
+
+.fighter-card:hover {
+  transform: scale(1.05);
+}
+
+.fighter-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+}
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .fighters-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
+/* Pagina Fighters */
+.fighters-header {
+  background: #141716;
+  text-align: center;
+  padding: 60px 20px 40px;
+  border-bottom: 3px solid #941b0c;
+}
+
+.fighters-header h1 {
+  font-family: 'Anton', sans-serif;
+  color: #941b0c;
+  font-size: 2.8rem;
+  margin-bottom: 10px;
+}
+
+.back-btn {
+  display: inline-block;
+  background: #941b0c;
+  color: f0f2ef;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.back-btn:hover {
+  background: #941b0c;
+}
+
+.fighters-list {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.fighters-list .fighters-grid {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.fighter-name {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #941b0c;
+}
+
+/* FOOTER */
+footer {
+  background: #141716;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+footer h3 {
+  font-family: 'Anton', sans-serif;
+  color: #941b0c;
+  margin-bottom: 15px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  color: #941b0c;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: regular;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+  color: #941b0c;
+}
+
+
