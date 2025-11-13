@@ -2,11 +2,17 @@
 
 ## Sito Evento Sportivo 
 1. [Creazione sito per un evento sportivo](#creazione-sito-per-un-evento-sportivo)
+
 2. [Prototipo](#prototipo)
+
 3. [Palette dei colori](#palette-colori)
+
 4. [CTA per l'acquisto del biglietto](#cta-perl-acquisto-del-biglietto)
+
 5. [CTA per le informazioni sull'evento](#cta-per-le-informazioni-sull-evento)
+
 6. [CTA per le informazioni di contatto](#cta-per-le-informazioni-di-contatto)
+
 7. [CTA per le informazioni social](#cta-per-le-informazioni-social)
 
 
@@ -35,10 +41,15 @@ Nell'overlay messa un'opacità per far vedere sia il testo ed il pulsante che il
 ## Creazione sito per un evento sportivo
 
 1. [Header fisso in alto, con CTA e titolo evento ed un background](#header-fisso-in-alto-con-cta-e-titolo-evento-ed-un-background)
+
 2. [Footer fisso in basso, con CTA per i social](#cta-per-le-informazioni-social)
-3.[CTA per le informazioni sull'evento](#cta-per-le-informazioni-sullevento)
-4.[CTA per le informazioni di contatto](#cta-per-le-informazioni-di-contatto)
-5.[Pagina evento]()
+
+3. [CTA per le informazioni sull'evento](#cta-per-le-informazioni-sullevento)
+
+4. [CTA per le informazioni di contatto](#cta-per-le-informazioni-di-contatto)
+
+5. [Pagina evento]()
+
 ## Header fisso in alto, con CTA e titolo evento ed un background
 
 ```html
