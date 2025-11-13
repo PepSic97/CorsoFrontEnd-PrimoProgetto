@@ -32,7 +32,8 @@ Nell'header e Come CTA nel body
 <a href="#tickets" class="cta">Acquista il biglietto!</a>
 
 <a href="https://www.eventbrite.it/e/rookie-fc-8-mma-tickets-1824742577169?fbclid=IwY2xjawN5RPpleHRuA2FlbQIxMABicmlkETBMUzFDYmlvVzlRVnhYYTByc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHkbsR1em2leobwWEOXR94ldeh68_0JIhSLxCUvlvRoKpJ9BoXiwgxCSoWZiV_aem_Ctjd6FajYw2z4ZaYP8a5WQ" class="cta">Compra Biglietti</a>
-'''
+
+```
 
 ## CTA per le informazioni sull'evento
 
@@ -40,7 +41,7 @@ Nel body. porta ad un secondo file/pagina html
 
 ```html
 <a href="fighters.html" class="cta">Vedi Elenco Fighters</a>
-'''
+```
 
 Porta ad un secondo file/pagina html
 
@@ -51,7 +52,7 @@ Nel body, porta ad un link esterno
 ```html
 <a href="https://www.eventbrite.it/e/rookie-fc-8-mma-tickets-1824742577169?fbclid=IwY2xjawN5RPpleHRuA2FlbQIxMABicmlkETBMUzFDYmlvVzlRVnhYYTByc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHkbsR1em2leobwWEOXR94ldeh68_0JIhSLxCUvlvRoKpJ9BoXiwgxCSoWZiV_aem_Ctjd6FajYw2z4ZaYP8a5WQ"
 class="cta">Compra Biglietti</a>
-'''
+```
 
 ## CTA per le informazioni social
 
@@ -73,4 +74,4 @@ Nel footer, link esterni
     </div>
     <p>© 2025 Rookie FC. Tutti i diritti riservati.</p>
 </footer>
-'''
+```
