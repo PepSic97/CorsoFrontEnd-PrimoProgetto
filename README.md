@@ -12,11 +12,10 @@
 ![Screenshot of the application](/images/readMeImages/wireframe.png)
 
 ## Palette Colori
-'''css
 #141716 - Dark Background
 #941b0c - Primary Accent
 #f0f2ef - Light Text
-'''
+
 
 ## Creazione sito per un evento sportivo
 
@@ -43,6 +42,7 @@ Nel body. porta ad un secondo file/pagina html
 <a href="fighters.html" class="cta">Vedi Elenco Fighters</a>
 '''
 
+Porta ad un secondo file/pagina html
 
 ## CTA per le informazioni di contatto
 
