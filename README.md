@@ -48,7 +48,7 @@ Nell'overlay messa un'opacità per far vedere sia il testo ed il pulsante che il
 
 4. [CTA per le informazioni di contatto](#cta-per-le-informazioni-di-contatto)
 
-5. [Pagina evento]()
+5. [Pagina evento](#pagina-evento)
 
 ## Header fisso in alto, con CTA e titolo evento ed un background
 
