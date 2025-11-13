@@ -1,21 +1,22 @@
 # Primo proogetto Corso Front End
 
 ## Sito Evento Sportivo 
-1. [Creazione sito per un evento sportivo] (#creazione-sito-per-un-evento-sportivo)
-2. [CTA per l'acquisto del biglietto] (#cta-perl-acquisto-del-biglietto)
-3. [CTA per le informazioni sull'evento] (#cta-per-le-informazioni-sull-evento)
-4. [CTA per le informazioni di contatto] (#cta-per-le-informazioni-di-contatto)
-5. [CTA per le informazioni social] (#cta-per-le-informazioni-social)
+1. [Creazione sito per un evento sportivo](#creazione-sito-per-un-evento-sportivo)
+2. [CTA per l'acquisto del biglietto](#cta-perl-acquisto-del-biglietto)
+3. [CTA per le informazioni sull'evento](#cta-per-le-informazioni-sull-evento)
+4. [CTA per le informazioni di contatto](#cta-per-le-informazioni-di-contatto)
+5. [CTA per le informazioni social](#cta-per-le-informazioni-social)
 
 
 ## Prototipo
 ![Screenshot of the application](/images/readMeImages/wireframe.png)
 
 ## Palette Colori
+'''css
 #141716 - Dark Background
 #941b0c - Primary Accent
 #f0f2ef - Light Text
-
+'''
 
 ## Creazione sito per un evento sportivo
 
@@ -26,26 +27,22 @@
 
 ## CTA per l'acquisto del biglietto
 
-Nell'header
+Nell'header e Come CTA nel body
 
 ```html
 <a href="#tickets" class="cta">Acquista il biglietto!</a>
-'''
 
-Come CTA nel body
-
-```html
 <a href="https://www.eventbrite.it/e/rookie-fc-8-mma-tickets-1824742577169?fbclid=IwY2xjawN5RPpleHRuA2FlbQIxMABicmlkETBMUzFDYmlvVzlRVnhYYTByc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHkbsR1em2leobwWEOXR94ldeh68_0JIhSLxCUvlvRoKpJ9BoXiwgxCSoWZiV_aem_Ctjd6FajYw2z4ZaYP8a5WQ" class="cta">Compra Biglietti</a>
 '''
 
 ## CTA per le informazioni sull'evento
-Nel body
+
+Nel body. porta ad un secondo file/pagina html
 
 ```html
 <a href="fighters.html" class="cta">Vedi Elenco Fighters</a>
 '''
 
-Porta ad un secondo file/pagina html
 
 ## CTA per le informazioni di contatto
 
