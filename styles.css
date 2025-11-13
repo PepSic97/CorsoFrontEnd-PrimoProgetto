@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;700&display=swap');
 
-/*Palette Colori
-#141716 - Dark Background
-#941b0c - Primary Accent
-#f0f2ef - Light Text
-*/
-
-
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #141716;
@@ -267,5 +260,3 @@ footer h3 {
   text-decoration: underline;
   color: #941b0c;
 }
-
-
